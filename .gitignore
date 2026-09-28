@@ -1,0 +1,15 @@
+# Maven and Java build output
+target/
+out/
+*.class
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Local SQLite database files
+data/*.db
+data/*.db-journal
+
+# Operating system files
+.DS_Store
