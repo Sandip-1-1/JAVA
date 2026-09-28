@@ -1,6 +1,6 @@
 package com.inventory.model;
 
-public class Product implements Validatable {
+public final class Product implements Validatable {
     private int id;
     private String name;
     private String sku;

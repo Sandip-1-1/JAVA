@@ -2,7 +2,7 @@ package com.inventory.model;
 
 import java.time.LocalDateTime;
 
-public class StockTransaction implements Validatable {
+public final class StockTransaction implements Validatable {
     private int id;
     private int productId;
     private TransactionType transactionType;
